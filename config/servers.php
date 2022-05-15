@@ -14,8 +14,8 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
-			'Username'   => 'root',
-			'Password'   => 'z34$%dLtYY%',
+			'Username'   => 'FluxCP',
+			'Password'   => 'P3AniNm4t&nB5Tff',
 			'Database'   => 'warboundro',
 			'Persistent' => true,
 			'Timezone'   => null // Example: '+0:00' is UTC.

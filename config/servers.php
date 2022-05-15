@@ -13,7 +13,7 @@ return array(
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
-			'Hostname'   => '127.0.0.1',
+			'Hostname'   => '192.168.1.64',
 			'Username'   => 'fluxcp',
 			'Password'   => 'P3AniNm4t&nB5Tff',
 			'Database'   => 'warboundro',
@@ -36,7 +36,7 @@ return array(
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'fluxcplog',
-			'Password'   => '#A4aLx9@JfJYh69o,
+			'Password'   => '#A4aLx9@JfJYh69o',
 			'Database'   => 'wrolog',
 			'Persistent' => true,
 			'Timezone'   => null // Possible values is as described in the comment in DbConfig.

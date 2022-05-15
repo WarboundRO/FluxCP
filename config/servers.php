@@ -8,8 +8,8 @@ return array(
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
-			'Port'       => 3306,
-			'Encoding'   => 'utf8mb4_general_ci', // Connection encoding -- use whatever here your MySQL tables collation is.
+			//'Port'       => 3306,
+			//'Encoding'   => 'utf8mb4_general_ci', // Connection encoding -- use whatever here your MySQL tables collation is.
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
@@ -29,8 +29,8 @@ return array(
 		// different server entirely to ensure the reliability of the log data.
 		'LogsDbConfig'   => array(
 			//'Socket'     => '/tmp/mysql.sock',
-			'Port'       => 3306,
-			'Encoding'   => 'utf8mb4_general_ci', // Connection encoding -- use whatever here your MySQL tables collation is.
+			//'Port'       => 3306,
+			//'Encoding'   => 'utf8mb4_general_ci', // Connection encoding -- use whatever here your MySQL tables collation is.
 			'Convert'    => 'utf8',
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)

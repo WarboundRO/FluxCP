@@ -2,9 +2,9 @@
 // This is the application configuration file. All values have been set to
 // the default, and should be changed as needed.
 return array(
-	'ServerAddress'				=> 'localhost',				// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
-	'BaseURI'					=> 'fluxcp',						// The base URI is the base web root on which your application lies.
-	'InstallerPassword'			=> 'secretpassword',		// Installer/updater password.
+	'ServerAddress'				=> '213.67.114.51',			// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
+	'BaseURI'					=> 'FluxCP',				// The base URI is the base web root on which your application lies.
+	'InstallerPassword'			=> 'N9kN6aME5r7?j4Fd',		// Installer/updater password.
 	'RequireOwnership'			=> true,					// Require the executing user to be owner of the FLUX_ROOT/data/ directory tree? (Better for security)
 															// WARNING: This will be mostly IGNORED on non-POSIX-compliant OSes (e.g. Windows).
 	'DefaultLoginGroup'			=> null,
@@ -24,7 +24,7 @@ return array(
 	'EmblemUseWebservice'		=> true,					// Load emblems from WebService?
 	'SessionCookieExpire'		=> 48,						// Duration in hours.
 	'AdminMenuGroupLevel'		=> AccountLevel::LOWGM,		// The starting group ID for which module actions are moved into the admin menu for display.
-	'DateDefaultTimezone'		=> 'UTC',					// The default timezone, consult the PHP manual for valid timezones: http://php.net/timezones (null for defaut system TZ)
+	'DateDefaultTimezone'		=> null,					// The default timezone, consult the PHP manual for valid timezones: http://php.net/timezones (null for defaut system TZ)
 	'DateFormat'				=> 'Y-m-d',					// Default DATE format to be displayed in pages.
 	'DateTimeFormat'			=> 'Y-m-d H:i:s',			// Default DATETIME format to be displayed in pages.
 	'ShowSinglePage'			=> true,					// Whether or not to show the page numbers even if there's only one page.
@@ -59,7 +59,7 @@ return array(
 	'EmailConfirmExpire'		=> 48,						// E-mail confirmations expire hours. Unconfirmed accounts will expire after this period of time.
 	'PincodeEnabled'			=> true,					// Whether or not the pincode system is enabled in your server. (Check your char_athena.conf file. Enabled by default.)
 	'MailerFromAddress'			=> 'noreply@localhost',		// The e-mail address displayed in the From field.
-	'MailerFromName'			=> 'MailerName',			// The name displayed with the From e-mail address.
+	'MailerFromName'			=> 'WarboundRO No Reply',	// The name displayed with the From e-mail address.
 	'MailerUseSMTP'				=> false,					// Whether or not to use a separate SMTP server for sending mail.
 	'MailerSMTPUseSSL'			=> false,					// Whether or not mailer should connect using SSL (yes for GMail).
 	'MailerSMTPUseTLS'			=> false,					// Same as above SSL setting, but for TLS.  This setting will override the SSL setting.
@@ -98,7 +98,7 @@ return array(
 	'MoneyDecimalSymbol'		=> '.',						// (Visual) Decimal separator (a comma in European currencies).
 	'AcceptDonations'			=> true,					// Whether or not to accept donations.
 	'PayPalIpnUrl'				=> 'www.paypal.com',		// The ipnpb.paypal.com and ipnpb.sandbox.paypal.com endpoints only accept HTTPS connections. If you currently use www.paypal.com, you should move to ipnpb.paypal.com when you update your code to use HTTPS.
-	'PayPalBusinessEmail'		=> 'admin@localhost',		// Enter the e-mail under which you have registered your business account.
+	'PayPalBusinessEmail'		=> 'dagalbincarlson@gmail.com',		// Enter the e-mail under which you have registered your business account.
 	'PayPalReceiverEmails'		=> array(					// These are the receiver e-mail addresses who are allowed to receive payment.
 		//'admin2@localhost',								// -- This array may be empty if you only use one e-mail
 		//'admin3@localhost'								// -- because your Business Email is also checked.
@@ -217,11 +217,11 @@ return array(
 
 // News Options
 	'CMSNewsOnHomepage'			=> true,					// Display News on Home Page instead of "You've Just Installed FluxCP" message?
-	'CMSNewsType'				=> 1,						// Type = source of news feed:
+	'CMSNewsType'				=> 2,						// Type = source of news feed:
 															//	1 = Built-in news page
 															//	2 = RSS Import
 
-	'CMSNewsRSS'				=> 'https://rathena.org/board/rss/1-latest-community-announcements.xml/',		// Use if CMSNewsType = 2
+	'CMSNewsRSS'				=> 'https://warboundro.boards.net/rss/public',		// Use if CMSNewsType = 2
 	'CMSNewsLimit'				=> 4,						// Number of news items to display
 	'CMSDisplayModifiedBy'		=> false,					// If a news item has been modified, display modified date under news item?
 

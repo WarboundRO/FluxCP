@@ -36,7 +36,7 @@ return array(
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'fluxcplog',
-			'Password'   => '#A4aLx9@JfJYh69o',
+			'Password'   => 'A4aLx9@JfJYh69o',
 			'Database'   => 'wrolog',
 			'Persistent' => true,
 			'Timezone'   => null // Possible values is as described in the comment in DbConfig.

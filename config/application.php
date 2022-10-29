@@ -241,7 +241,7 @@ return array(
   'DiscordSendOnWebCommand'   => true, // Sends a channel message when someone uses the Web Command feature in FluxCP
   'DiscordSendOnMarketing'    => true, // Sends a channel message when someone uses the Send Email feature in FluxCP
 
-	'TinyMCEKey'				=> 'no-key',				// Register for a key at https://www.tiny.cloud/my-account/dashboard/
+	'TinyMCEKey'				=> '06ipcjheq5a3amgyrcj1bnyf2pryw2q09e7ne5a137vit8n9',				// Register for a key at https://www.tiny.cloud/my-account/dashboard/
 
 	// These are the main menu items that should be displayed by themes.
 	// They route to modules and actions.  Whether they are displayed or

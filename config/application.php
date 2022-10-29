@@ -252,10 +252,10 @@ return array(
 			'HomeLabel'			=> array('module' => 'main'),
 			//'ForumLabel'		=> array('exturl' => 'http://www.fluxro.com/community'),	// External forum link
 			//'ForumLabel'		=> array('module' => 'forums'), 						// Built-in forum link
-			'NewsLabel'			=> array('module' => 'news'),
+			//'NewsLabel'			=> array('module' => 'news'),
 			// Sample items for pages function.
 			'DownloadsLabel'		=> array('module' => 'pages','action'=>'content&path=downloads'),
-			'RulesLabel'			=> array('module' => 'pages','action'=>'content&path=rules'),
+			//'RulesLabel'			=> array('module' => 'pages','action'=>'content&path=rules'),
 			// End sample items for pages function.
 		),
 		'AccountLabel'		=> array(
@@ -286,8 +286,8 @@ return array(
 			'MobDatabaseLabel'	=> array('module' => 'monster'),
 		),
 		'SocialLabel'		=> array(
-			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/warboundro/'),
-			'RateUsOnRMSLabel'		=> array('exturl' => 'https://ratemyserver.net/index.php?page=detailedlistserver&serid=22043&url_sname=WarboundRO'),
+			//'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/warboundro/'),
+			//'RateUsOnRMSLabel'		=> array('exturl' => 'https://ratemyserver.net/index.php?page=detailedlistserver&serid=22043&url_sname=WarboundRO'),
 		),
 		'Service Desk'	=> array(
 			'ServiceDeskLabel'	=> array('module' => 'servicedesk', 'action' => 'staffindex'),

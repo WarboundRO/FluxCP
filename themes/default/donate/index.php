@@ -5,7 +5,7 @@
 		<p class="red"><?php echo htmlspecialchars($errorMessage) ?></p>
 	<?php endif ?>
 
-	<p>By donating, you're supporting the costs of <em>running</em> this server and <em>maintaining</em> it.  In return, you will be rewarded <span class="keyword">donation credits</span> that you may use to exchange for <span class="keyword">cash points</span> via the in-game NPC [Donor Rewards Redeemer].</p>
+	<p>By donating, you're supporting the costs of <em>running</em> this server and <em>maintaining</em> it.  In return, you will be rewarded <span class="keyword">donation credits</span> that you may use to exchange for <span class="keyword">cash points</span> via the in-game NPC <span class="keyword">[Donor Rewards Redeemer]</span>. These points can then in turn be used as currency within our in-game <span class="keyword">cash shop</span>.</p>
 	<h3>Are you ready to donate?</h3>
 	<p>All donations towards us are received by PayPal, but don't worry!  Even if you don't have an account with PayPal, you can still use your credit card to donate!</p>
 

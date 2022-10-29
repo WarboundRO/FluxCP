@@ -267,7 +267,7 @@ return array(
 			'LogoutTitle'		=> array('module' => 'account', 'action' => 'logout'),
 		),
 		'DonationsLabel'		=> array(
-			'PurchaseLabel'		=> array('module' => 'purchase'),
+			//'PurchaseLabel'		=> array('module' => 'purchase'),
 			'DonateLabel'		=> array('module' => 'donate'),
 		),
 		'InformationLabel'	=> array(

@@ -234,12 +234,12 @@ return array(
 	'SDCreditReward'			=> 10,						// Number of credits to award account.
 
 // Discord Webhooks
-	'DiscordUseWebhook'			=> false,
-	'DiscordWebhookURL'			=> 'enter_webhook_url_from_discord_here',
-    'DiscordSendOnRegister'     => true, // Sends a channel message when someone registers
-    'DiscordSendOnNewTicket'    => true, // Sends a channel message when someone submits a new ticket to the Service Desk
-    'DiscordSendOnWebCommand'   => true, // Sends a channel message when someone uses the Web Command feature in FluxCP
-    'DiscordSendOnMarketing'    => true, // Sends a channel message when someone uses the Send Email feature in FluxCP
+	'DiscordUseWebhook'			=> true,
+	'DiscordWebhookURL'			=> 'https://discord.com/api/webhooks/1035939932918779996/1LE1kCCPB3tY0P2eqV-Nn4-Nl571I_vmep2YmnQjtung89w5DyGMSIxuwXsMZs9QibGf',
+  'DiscordSendOnRegister'     => true, // Sends a channel message when someone registers
+  'DiscordSendOnNewTicket'    => true, // Sends a channel message when someone submits a new ticket to the Service Desk
+  'DiscordSendOnWebCommand'   => true, // Sends a channel message when someone uses the Web Command feature in FluxCP
+  'DiscordSendOnMarketing'    => true, // Sends a channel message when someone uses the Send Email feature in FluxCP
 
 	'TinyMCEKey'				=> 'no-key',				// Register for a key at https://www.tiny.cloud/my-account/dashboard/
 
@@ -286,8 +286,8 @@ return array(
 			'MobDatabaseLabel'	=> array('module' => 'monster'),
 		),
 		'SocialLabel'		=> array(
-			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/<change_me>'),
-			'RateUsOnRMSLabel'		=> array('exturl' => '<link_to_RMS>'),
+			'JoinUsInFacebookLabel'	=> array('exturl' => 'https://www.facebook.com/warboundro/'),
+			'RateUsOnRMSLabel'		=> array('exturl' => 'https://ratemyserver.net/index.php?page=detailedlistserver&serid=22043&url_sname=WarboundRO'),
 		),
 		'Service Desk'	=> array(
 			'ServiceDeskLabel'	=> array('module' => 'servicedesk', 'action' => 'staffindex'),

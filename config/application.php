@@ -4,13 +4,13 @@
 return array(
 	'ServerAddress'				=> 'localhost',				// This value is the hostname:port under which Flux runs. (e.g., example.com or example.com:80)
 	'BaseURI'					=> 'fluxcp',						// The base URI is the base web root on which your application lies.
-	'InstallerPassword'			=> 'secretpassword',		// Installer/updater password.
+	'InstallerPassword'			=> 'N9kN6aME5r7?j4Fd',		// Installer/updater password.
 	'RequireOwnership'			=> true,					// Require the executing user to be owner of the FLUX_ROOT/data/ directory tree? (Better for security)
 															// WARNING: This will be mostly IGNORED on non-POSIX-compliant OSes (e.g. Windows).
 	'DefaultLoginGroup'			=> null,
 	'DefaultCharMapServer'		=> null,
 	'DefaultLanguage'			=> 'en_us',					// Specify the default control panel language (see FLUX_ROOT/lang/ directory for available languages.)
-	'SiteTitle'					=> 'Flux Control Panel',	// This value is only used if the theme decides to use it.
+	'SiteTitle'					=> 'WarboundRO Control Panel',	// This value is only used if the theme decides to use it.
 	'ThemeName'					=> array('default', 'bootstrap'), // Names of the themes you would like list for use in the footer. Themes are in FLUX_ROOT/themes.
 	'ScriptTimeLimit'			=> 0,						// Script execution time limit. Specifies (in seconds) how long a page should run before timing out. (0 means forever)
 	'MissingEmblemBMP'			=> 'empty.bmp',				//
@@ -99,7 +99,7 @@ return array(
 	'MoneyDecimalSymbol'		=> '.',						// (Visual) Decimal separator (a comma in European currencies).
 	'AcceptDonations'			=> true,					// Whether or not to accept donations.
 	'PayPalIpnUrl'				=> 'www.paypal.com',		// The ipnpb.paypal.com and ipnpb.sandbox.paypal.com endpoints only accept HTTPS connections. If you currently use www.paypal.com, you should move to ipnpb.paypal.com when you update your code to use HTTPS.
-	'PayPalBusinessEmail'		=> 'admin@localhost',		// Enter the e-mail under which you have registered your business account.
+	'PayPalBusinessEmail'		=> 'albin_carlson92@hotmail.com',		// Enter the e-mail under which you have registered your business account.
 	'PayPalReceiverEmails'		=> array(					// These are the receiver e-mail addresses who are allowed to receive payment.
 		//'admin2@localhost',								// -- This array may be empty if you only use one e-mail
 		//'admin3@localhost'								// -- because your Business Email is also checked.

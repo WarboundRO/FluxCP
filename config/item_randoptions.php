@@ -220,5 +220,6 @@ return array(
 	218	=>	'Recieved reflected damage -%s%%',
 	219	=>	'Melee physical damage +%s%%',
 	220	=>	'Melee physical damage -%s%%',
+	221 =>	'Better chance of finding magic items +%s%%',
 	)
 ?>

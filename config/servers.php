@@ -4,7 +4,7 @@ return array(
 	// specify multiple server groups (however they should share the same login
 	// server whilst they are allowed to have multiple char/map pairs).
 	array(
-		'ServerName'     => 'FluxRO',
+		'ServerName'     => 'WarboundRO',
 		// Global database configuration (excludes logs database configuration).
 		'DbConfig'       => array(
 			//'Socket'     => '/tmp/mysql.sock',
@@ -14,11 +14,11 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
-			'Username'   => 'ragnarok',
-			'Password'   => 'ragnarok',
-			'Database'   => 'ragnarok',
+			'Username'   => 'fluxcp',
+			'Password'   => '#HQ553kn4i?ptgE?',
+			'Database'   => 'warboundro',
 			'Persistent' => true,
-			'Timezone'   => null // Example: '+0:00' is UTC.
+			'Timezone'   => '+1:00' // Example: '+0:00' is UTC.
 			// The possible values of 'Timezone' is as documented from the MySQL website:
 			// "The value can be given as a string indicating an offset from UTC, such as '+10:00' or '-6:00'."
 			// "The value can be given as a named time zone, such as 'Europe/Helsinki', 'US/Eastern', or 'MET'." (see below continuation!)
@@ -35,18 +35,18 @@ return array(
 				// -- 'Convert' option only works when 'Encoding' option is specified and iconv (http://php.net/iconv) is available.
 				// -- It specifies the encoding to convert your MySQL data to on the website (most likely needs to be utf8)
 			'Hostname'   => '127.0.0.1',
-			'Username'   => 'ragnarok',
-			'Password'   => 'ragnarok',
-			'Database'   => 'ragnarok',
+			'Username'   => 'fluxcp',
+			'Password'   => '7F@NEiBT!6fC$cxz',
+			'Database'   => 'wrolog',
 			'Persistent' => true,
-			'Timezone'   => null // Possible values is as described in the comment in DbConfig.
+			'Timezone'   => '+1:00' // Possible values is as described in the comment in DbConfig.
 		),
 		// Web server configuration.
 		'WebDbConfig'    => array(
 			'Hostname'   => '127.0.0.1',
-			'Username'   => 'ragnarok',
-			'Password'   => 'ragnarok',
-			'Database'   => 'ragnarok',
+			'Username'   => 'fluxcp',
+			'Password'   => '#HQ553kn4i?ptgE?',
+			'Database'   => 'warboundro',
 			'Persistent' => true
 		),
 		// Login server configuration.
@@ -60,10 +60,10 @@ return array(
 		),
 		'CharMapServers' => array(
 			array(
-				'ServerName'      => 'FluxRO',
-				'Renewal'         => true,
-				'MaxCharSlots'    => 9,
-				'DateTimezone'    => null, // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
+				'ServerName'      => 'WarboundRO',
+				'Renewal'         => false,
+				'MaxCharSlots'    => 12,
+				'DateTimezone'    => '+1:00', // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
 				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
 				'ExpRates' => array(
@@ -75,37 +75,37 @@ return array(
 					// If drop rate was below this amount and bonus is applied to it, the bonus can't make it exceed this amount.
 					'DropRateCap' => 9000,
 					// The rate the common items (in the ETC tab, besides card) are dropped
-					'Common'      => 100,
-					'CommonBoss'  => 100,
-					'CommonMVP'   => 100,
+					'Common'      => 10000,
+					'CommonBoss'  => 10000,
+					'CommonMVP'   => 10000,
 					'CommonMin'   => 1,
 					'CommonMax'   => 10000,
 					// The rate healing items (that restore HP or SP) are dropped
-					'Heal'        => 100,
-					'HealBoss'    => 100,
-					'HealMVP'     => 100,
+					'Heal'        => 10000,
+					'HealBoss'    => 10000,
+					'HealMVP'     => 10000,
 					'HealMin'     => 1,
 					'HealMax'     => 10000,
 					// The rate usable items (in the item tab other then healing items) are dropped
-					'Useable'     => 100,
-					'UseableBoss' => 100,
-					'UseableMVP'  => 100,
+					'Useable'     => 10000,
+					'UseableBoss' => 10000,
+					'UseableMVP'  => 10000,
 					'UseableMin'  => 1,
 					'UseableMax'  => 10000,
 					// The rate at which equipment is dropped
-					'Equip'       => 100,
-					'EquipBoss'   => 100,
-					'EquipMVP'    => 100,
+					'Equip'       => 10000,
+					'EquipBoss'   => 10000,
+					'EquipMVP'    => 10000,
 					'EquipMin'    => 1,
 					'EquipMax'    => 10000,
 					// The rate at which cards are dropped
-					'Card'        => 100,
-					'CardBoss'    => 100,
-					'CardMVP'     => 100,
+					'Card'        => 30000,
+					'CardBoss'    => 27500,
+					'CardMVP'     => 25000,
 					'CardMin'     => 1,
 					'CardMax'     => 10000,
 					// The rate adjustment for the MVP items that the MVP gets directly in their inventory
-					'MvpItem'     => 100,
+					'MvpItem'     => 10000,
 					'MvpItemMin'  => 1,
 					'MvpItemMax'  => 10000,
 					// 0 - official order (Show message "Note: Only one MVP drop will be rewarded.") , 2 - all items
@@ -126,6 +126,12 @@ return array(
 				// Fourth (final) parameter: Ending hour in 24-hr format.
 				// ** (Note, invalid times are ignored silently.)
 				'WoeDayTimes'   => array(
+					array(0, '20:00', 0, '21:00'),
+					array(2, '20:00', 0, '21:00'),
+					array(3, '20:00', 0, '21:00'),
+					array(4, '20:00', 0, '21:00'),
+					array(5, '20:00', 0, '21:00'),
+					array(6, '20:00', 0, '21:00'),
 					//array(0, '12:00', 0, '14:00'), // Example: Starts Sunday 12:00 PM and ends Sunday 2:00 PM
 					//array(3, '14:00', 3, '15:00')  // Example: Starts Wednesday 2:00 PM and ends Wednesday 3:00 PM
 				),

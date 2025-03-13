@@ -56,7 +56,7 @@ return array(
 			'UseMD5'   => false,
 			'NoCase'   => true, // rA account case-sensitivity; Default: Case-INsensitive (true).
 			'GroupID'  => 0,    // Default account group ID during registration.
-			//'Database' => 'ragnarok'
+			'Database' => 'warboundro'
 		),
 		'CharMapServers' => array(
 			array(
@@ -65,7 +65,7 @@ return array(
 				'MaxCharSlots'    => 12,
 				'DateTimezone'    => '+1:00', // Specifies game server's timezone for this char/map pair. (See: http://php.net/timezones)
 				//'ResetDenyMaps'   => 'sec_pri', // Defaults to 'sec_pri'. This value can be an array of map names.
-				//'Database'        => 'ragnarok', // Defaults to DbConfig.Database
+				'Database'        => 'warboundro', // Defaults to DbConfig.Database
 				'ExpRates' => array(
 					'Base'        => 100, // Rate at which (base) exp is given
 					'Job'         => 100, // Rate at which job exp is given

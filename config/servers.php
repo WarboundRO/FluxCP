@@ -46,7 +46,7 @@ return array(
 			'Hostname'   => '127.0.0.1',
 			'Username'   => 'fluxcp',
 			'Password'   => '#HQ553kn4i?ptgE?',
-			'Database'   => 'fluxcp',
+			'Database'   => 'warboundro',
 			'Persistent' => true
 		),
 		// Login server configuration.
